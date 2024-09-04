@@ -4,24 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Validação de formulário</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <form>
-        <h1>Formulário de cadastro</h1>
-        <br>
-        <label for="nome">Nome: </label><input id="nome" type="text">
-        <br>
-        <br>
-        <label for="email">E-mail: </label><input id="email" type="email">
-        <br>
-        <br>
-        <label for="senha">Senha: </label><input id="senha" type="password">
-        <br>
-        <br>
-        <input type="submit" value="Cadastrar">
-    </form>
+<h1>Validação de formulário</h1>
+<div class="caixa">
+    <p>Preencha os campos abaixo para que possamos verificar os valores.</p>
+    <p class="msg">
+    </p>
+    <p class="negativo">
+    </p>
+<form id="form-enviar">
+<input id="campoA" class="campo" type="number" placeholder="Campo A">
+<input id="campoB" class="campo" type="number" placeholder="Campo B">
+<button class="botao" type="submit">ENVIAR</button>
+</form>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>

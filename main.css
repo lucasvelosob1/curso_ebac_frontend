@@ -1,0 +1,62 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+}
+
+body { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    font-size: 30px;
+}
+
+.caixa {
+    background-color: #dadce0;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    gap: 15px;
+    }
+
+.campo {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.botao {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #4285f4;
+    color: #fff;
+}
+.botao:hover {
+    background-color:#669aee;
+}
+
+.msg {
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid;
+    font-size: 20px;
+    background-color: #fff;
+    width: 300px;
+    display: none;
+}
+
+.negativo {
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid;
+    font-size: 20px;
+    background-color: #fff;
+    width: 300px;
+    display: none;
+}
